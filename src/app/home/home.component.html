@@ -1,0 +1,16 @@
+<div *ngIf="loading">Loading news articles...</div>
+
+<div class="news" *ngFor="let news of news">
+    <mat-card-header>
+        {{ news.title }}
+    </mat-card-header>
+<mat-card-title>
+    <a href="{{ news.link }}" target="_blank"><mat-icon>link</mat-icon></a>
+</mat-card-title>
+
+    <mat-card-content>{{ news.date | date }}</mat-card-content>
+</div>
+
+<div class="Load-button">
+<button mat-button (click)="loadMore()" *ngIf="!loading">Load More</button>
+</div>

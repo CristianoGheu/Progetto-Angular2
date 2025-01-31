@@ -1,0 +1,41 @@
+.news {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease-in-out;
+    flex-direction: column;
+    display: flex;
+}
+
+mat-card-header {
+    margin-bottom: 10px;
+    font-size: 15px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+mat-card-title {
+    margin-bottom: 10px;
+}
+
+mat-icon{
+    color: #007bff; 
+}
+
+mat-card-content {
+    font-size: 12px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+.loading {
+    font-size: 18px;
+    color: #007bff;
+    text-align: center;
+    margin: 20px;
+}
+
+.Load-button {
+    text-align: center;
+    margin-top: 20px;
+}
