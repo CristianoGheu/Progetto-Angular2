@@ -1,0 +1,13 @@
+Per il progetto ho dovuto creare un'applicazione che mi da le ultime 10 news grazie all'uso delle API di Hacker News e con un button mi carica altre 10 news.
+
+Il progetto l’ho sviluppato con il framework Angular, ho usato Angular Material per modellare i vari componenti.
+
+Per rendere il progetto modificabile in futuro ho deciso di creare il componente home dove ho inserito tutto il codice dell'applicazione.
+Nel file typescript del componente home ho inserito tutte le funzioni e chiamate dell'API.
+
+Ho creato anche i file enviroments dove ho inserito la configurazione di firebase, cosi facendo ho potuto deployare il progetto su firebase.
+Link applicazione= https://progetto-angular2.web.app/
+
+Per provare e testare l’applicazione potete scaricare il  zip ed estrarlo, 
+una volta aperto il progetto si deve navigare della directory e installare le dipendenze con npm install.
+Una volta installato le dipendenze di può avviare il server con il comando ng serve.
