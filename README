@@ -5,7 +5,6 @@ Il progetto l’ho sviluppato con il framework Angular, ho usato Angular Materia
 Per rendere il progetto piu leggibile ho deciso di creare il componente home dove ho inserito tutto il codice dell'applicazione.
 Nel file typescript del componente home ho inserito tutte le funzioni e chiamate dell'API.
 
-Ho creato anche i file enviroments dove ho inserito la configurazione di firebase, cosi facendo ho potuto deployare il progetto su firebase.
 Link applicazione= https://progetto-angular2.web.app/
 
 Per provare e testare l’applicazione potete scaricare il  zip ed estrarlo, 
