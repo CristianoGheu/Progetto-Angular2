@@ -1,8 +1,7 @@
-Per il progetto ho dovuto creare un'applicazione che mi da le ultime 10 news grazie all'uso delle API di Hacker News e con un button mi carica altre 10 news.
-
+Per il progetto ho sviluppato un'applicazione che mostra le ultime 10 news tramite l'uso delle API di Hacker News e tramite un pulsante mi va a mostrare altre 10 news.
 Il progetto l’ho sviluppato con il framework Angular, ho usato Angular Material per modellare i vari componenti.
 
-Per rendere il progetto piu leggibile ho deciso di creare il componente home dove ho inserito tutto il codice dell'applicazione.
+Per rendere il progetto piu facilmente leggibile ho deciso di creare il componente home dove ho inserito tutto il codice dell'applicazione.
 Nel file typescript del componente home ho inserito tutte le funzioni e chiamate dell'API.
 
 Link applicazione= https://progetto-angular2.web.app/
